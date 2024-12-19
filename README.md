@@ -1,14 +1,10 @@
- # 📌𝚂𝚄𝙷𝙰𝚂 𝙼𝙳 𝚆𝚑𝚊𝚝𝚜𝙰𝚙𝚙 𝙱𝚘𝚝 𝚅𝚎𝚛𝚜𝚒𝚘𝚗-8.0.0 ( 𝙾𝚏𝚏𝚒𝚌𝚒𝚊𝚕 𝚅𝚎𝚛𝚜𝚒𝚘𝚗 ) 🔖
-<p align="center">
-⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙
+ # 📌𝚂𝚄𝙷𝙰𝚂 𝙼𝙳 𝚆𝚑𝚊𝚝𝚜𝙰𝚙𝚙 𝙱𝚘𝚝 𝚅𝚎𝚛𝚜𝚒𝚘𝚗-9.0.0 ( 𝙾𝚏𝚏𝚒𝚌𝚒𝚊𝚕 𝚅𝚎𝚛𝚜𝚒𝚘𝚗 ) 🔖
 <p align="center">
 💡✨𝙎𝙐𝙃𝘼𝙎-𝙈𝘿 𝙒𝙚𝙗 𝙎𝙞𝙩𝙚.✨💡
 <p align="center">
 https://suhas-web-new.vercel.app/
-<p align="center">
-⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙⸙
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=A93226&center=true&width=900&height=100&lines=🧚‍♂️SUHAS-MD%20V8🧚‍♂️;%20🤖Multi-Device%20WhatsApp%20Bot.🤖;%20🥰Developed%20By%20Suhas%20Pathsindu.🥰)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=A93226&center=true&width=900&height=100&lines=🧚‍♂️SUHAS-MD%20V9🧚‍♂️;%20🤖Multi-Device%20WhatsApp%20Bot.🤖;%20🥰Developed%20By%20Suhas%20Pathsindu.🥰)
 <p align="center">
 🧚‍♂️SUHAS-MD Support Group💕
 <p align="center">
@@ -21,14 +17,14 @@ https://chat.whatsapp.com/BFDXnaUCQKqInxGq8LxUvo
 
 <div align="center">
  
-   <a><img src='https://i.ibb.co/02FQtBf/20241118-143715.jpg'/></a><a>
+   <a><img src='https://i.ibb.co/mbP3mpW/20241207-221016.jpg'/></a><a>
 <p align="center">
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=800&size=28&duration=4000&pause=1000&random=false&width=435&lines=+•★⃝ SUHAS_+MD-+V8★⃝•;MULTI-DEVICE+WHATSAPP+BOT;DEVELOPED+BY+SUHAS+BRO;RELEASED+DATE+15%2F11%2F2024." alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=800&size=28&duration=4000&pause=1000&random=false&width=435&lines=+•★⃝ SUHAS_+MD-+V9★⃝•;MULTI-DEVICE+WHATSAPP+BOT;DEVELOPED+BY+SUHAS+BRO;RELEASED+DATE+15%2F11%2F2024." alt="Typing SVG" /></a>
  </p>
 
 
- ## SUHAS-MD V8 Deployment Methods
+ ## SUHAS-MD V9 Deployment Methods
 
  
 ## MY YT CHANNEL
@@ -54,8 +50,6 @@ https://chat.whatsapp.com/BFDXnaUCQKqInxGq8LxUvo
   <p align="center">
 <a href="https://replit.com/@suhasbatta123/SUHAS-MD-PAIR-CODE"><img src="https://img.shields.io/badge/PAIR_CODE-blue" alt="Click Here to Get Pair-Code" width="110"></a>   
 
- 📌 𝗦𝗽𝗲𝗰𝗶𝗮𝗹𝘆 𝗔𝗱𝗱 𝗬𝗼𝘂𝗿 𝗕𝗼𝘁 𝗡𝘂𝗺𝗯𝗲𝗿 𝗜𝗻 𝗜𝗻𝗱𝗲𝘅.𝗷𝘀 50 𝗟𝗶𝗻𝗲 📌
- 📌 ඔයාගේ බොට් නම්බර් එක Index.js එකේ 50 වෙනි පෙළියේ දාන්න. 📌
 
 ### DEPLOY ON RENDER
 
@@ -90,7 +84,7 @@ https://chat.whatsapp.com/BFDXnaUCQKqInxGq8LxUvo
     <a href='https://railway.com' target="_blank"><img alt='Railway' src='https://img.shields.io/badge/-Deploy-green?style=for-the-badge&logo=railway&logoColor=white'/></a>
 
     <h2 align="center"> ⚠️ NOTE ⚠️ </h2>
-## 🚫 SUHAS-MD SCRIPT IS NOT OPENLY ALLOWED TO USED IN ANY OF YOUR PROJECTS BE WARNED!!! 
+## 🚫 SUHAS-MD-V9 SCRIPT IS NOT OPENLY ALLOWED TO USED IN ANY OF YOUR PROJECTS BE WARNED!!! 
 
 ## ```Connect With Me```<img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="80"></h1> 
  <br> 
