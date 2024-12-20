@@ -1,7 +1,7 @@
 {
   "name": "SUHAS-MD-V9",
   "version": "9.0",
-  "description": "A WhatsApp bot created by Suhas Pathsindu.💕",
+  "description": "A WhatsApp bot created by 💚Suhas Pathsindu.💕",
   "main": "index.js",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name SUHAS-MD-V9",
