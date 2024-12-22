@@ -39,7 +39,7 @@ const { File } = require('megajs')
 const prefix = '.'
 
 
-const ownerNumber = ['94750291885']
+const ownerNumber = ['${config.OWNER_NUMBER}']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -49,7 +49,7 @@ const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
 fs.writeFile(__dirname + '/auth_info_baileys/creds.json', data, () => {
-console.log("Session downloaded ✅")
+console.log("💕 SUHAS-MD-V9 Session downloaded ✅")
 })})}
 
 const express = require("express");
@@ -59,7 +59,7 @@ const port = process.env.PORT || 8000;
 //=============================================
 
 async function connectToWA() {
-console.log("Connecting SUHAS MD WHATSAPP BOT 💦...");
+console.log("🌟 Connecting SUHAS-MD-V9 WhatsApp Bot💛...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
 var { version } = await fetchLatestBaileysVersion()
 
@@ -79,7 +79,7 @@ if (lastDisconnect.error.output.statusCode !== DisconnectReason.loggedOut) {
 connectToWA()
 }
 } else if (connection === 'open') {
-console.log('🧚‍♂️ SUHAS-MD-V8 Install Successfully. 🧚‍♂️')
+console.log('💚💙 SUHAS-MD-V9 Install Successfully. 🤗🎉')
 const path = require('path');
 fs.readdirSync("./plugins/").forEach((plugin) => {
 if (path.extname(plugin).toLowerCase() == ".js") {
@@ -89,9 +89,31 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful 🧬✅')
 console.log('SUHAS-MD Bot Connected to WhatsApp Succesful 🧬✅')
 
-let up = `SUHAS-MD Connected Successful 🤖✅\n\nPREFIX: ${prefix}\n\n Main CMD: .menu/.allmenu\n\n Bot Main Owner : Suhas Pathsindu💞\n\n *🧬Don't Forget To Subscibe My YouTube Channel*\n www.youtube.com/@suhasbro\n\n *🧬Follow Your WhatsApp Channel*\n https://www.whatsapp.com/channel/0029VagKNUe96H4IdMbr9f2o\n\nThanks For Usings 𝚂𝚄𝙷𝙰𝚂-𝙼𝙳-𝚅8❤️\n\n\n> *© 𝙿𝚘𝚠𝚎𝚛𝚍 𝙱𝚢 🧚‍♂️⃝𝚂𝚄𝙷𝙰𝚂-𝙼𝙳 𝚅8 💕⃟* `;
+let up = `👋 𝗛𝗶 ${pushname}
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.ibb.co/F8DfWKM/cjfff-1.jpg` }, caption: up })
+*💕 SUHAS-MD Connected Successful 🤖✅*
+⦁ PREFIX: ${prefix}
+⦁ Main CMD: .menu/.allmenu 
+⦁ Bot Main Owner : Suhas Pathsindu
+⦁ Total CMD: 200+
+*➟➟➟➟➟➟➟➟➟➟➟➟➟➟➟*
+
+*🏮ꜱᴜʙꜱᴄʀɪʙᴇ ᴜꜱ* ➟https://youtube.com/@suhasbro
+
+*💡ꜰᴏʟʟᴏᴡ ᴜꜱ* ➟https://whatsapp.com/channel/0029VagKNUe96H4IdMbr9f2o
+
+*✨ᴡᴇʙ ꜱɪᴛᴇ* ➠ https://suhas-bro.vercel.app/
+
+*🎉ᴛᴇʟᴇɢʀᴀᴍ* ➠https://t.me/suhasbro
+
+*➟➟➟➟➟➟➟➟➟➟➟➟➟➟➟*
+
+
+*_🗣️Sʜᴇʀᴇ Oᴜʀ YᴏᴜTᴜʙᴇ Cʜᴀɴɴᴇʟ Lɪɴᴋ & WʜᴀᴛꜱAᴘᴘ Cʜᴀɴɴᴇʟ Lɪɴᴋ Wɪᴛʜ Yᴏᴜʀ Fʀɪᴇɴᴅꜱ...💙_*
+
+> *✨ Powered By SUHAS-MD-V9 💞*`;
+
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.ibb.co/mbP3mpW/20241207-221016.jpg` }, caption: up })
 
 }
 })
