@@ -17,6 +17,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 const {
 default: makeWASocket,
 useMultiFileAuthState,
@@ -38,8 +47,7 @@ const axios = require('axios')
 const { File } = require('megajs')
 const prefix = '.'
 
-
-const ownerNumber = ['${config.OWNER_NUMBER}']
+const ownerNumber = ['🎁 𝘼𝙙𝙙 𝙔𝙤𝙪𝙧 𝙊𝙬𝙣𝙚𝙧 𝙉𝙪𝙢𝙗𝙚𝙧 𝙃𝙚𝙧𝙚.🎁']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -49,7 +57,7 @@ const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
 fs.writeFile(__dirname + '/auth_info_baileys/creds.json', data, () => {
-console.log("💕 SUHAS-MD-V9 Session downloaded ✅")
+console.log("🧡 SUHAS-MD-V9 Session Downloaded ✅")
 })})}
 
 const express = require("express");
@@ -59,7 +67,7 @@ const port = process.env.PORT || 8000;
 //=============================================
 
 async function connectToWA() {
-console.log("🌟 Connecting SUHAS-MD-V9 WhatsApp Bot💛...");
+console.log("💙Connecting SUHAS-MD-V9 WhtasApp Bot...💙");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
 var { version } = await fetchLatestBaileysVersion()
 
@@ -79,7 +87,7 @@ if (lastDisconnect.error.output.statusCode !== DisconnectReason.loggedOut) {
 connectToWA()
 }
 } else if (connection === 'open') {
-console.log('💚💙 SUHAS-MD-V9 Install Successfully. 🤗🎉')
+console.log('💕 SUHAS-MD-V9 Bot Connected To WhatsApp Succesfully. 🎉')
 const path = require('path');
 fs.readdirSync("./plugins/").forEach((plugin) => {
 if (path.extname(plugin).toLowerCase() == ".js") {
@@ -87,31 +95,9 @@ require("./plugins/" + plugin);
 }
 });
 console.log('Plugins installed successful 🧬✅')
-console.log('SUHAS-MD Bot Connected to WhatsApp Succesful 🧬✅')
+console.log('💕 SUHAS-MD-V9 ❤')
 
-let up = `👋 𝗛𝗶 ${pushname}
-
-*💕 SUHAS-MD Connected Successful 🤖✅*
-⦁ PREFIX: ${prefix}
-⦁ Main CMD: .menu/.allmenu 
-⦁ Bot Main Owner : Suhas Pathsindu
-⦁ Total CMD: 200+
-*➟➟➟➟➟➟➟➟➟➟➟➟➟➟➟*
-
-*🏮ꜱᴜʙꜱᴄʀɪʙᴇ ᴜꜱ* ➟https://youtube.com/@suhasbro
-
-*💡ꜰᴏʟʟᴏᴡ ᴜꜱ* ➟https://whatsapp.com/channel/0029VagKNUe96H4IdMbr9f2o
-
-*✨ᴡᴇʙ ꜱɪᴛᴇ* ➠ https://suhas-bro.vercel.app/
-
-*🎉ᴛᴇʟᴇɢʀᴀᴍ* ➠https://t.me/suhasbro
-
-*➟➟➟➟➟➟➟➟➟➟➟➟➟➟➟*
-
-
-*_🗣️Sʜᴇʀᴇ Oᴜʀ YᴏᴜTᴜʙᴇ Cʜᴀɴɴᴇʟ Lɪɴᴋ & WʜᴀᴛꜱAᴘᴘ Cʜᴀɴɴᴇʟ Lɪɴᴋ Wɪᴛʜ Yᴏᴜʀ Fʀɪᴇɴᴅꜱ...💙_*
-
-> *✨ Powered By SUHAS-MD-V9 💞*`;
+let up = `👋 𝗛𝗶 ${pushname}\n*💕 SUHAS-MD Connected Successful 🤖✅*\n⦁ PREFIX: ${prefix}\n⦁ Main CMD: .menu/.allmenu\n⦁ Bot Main Owner : Suhas Pathsindu\n⦁ Total CMD: 200+\n\n*➟➟➟➟➟➟➟➟➟➟➟➟➟➟➟*\n\n*🏮ꜱᴜʙꜱᴄʀɪʙᴇ ᴜꜱ* ➟https://youtube.com/@suhasbro\n\n*💡ꜰᴏʟʟᴏᴡ ᴜꜱ* ➟https://whatsapp.com/channel/0029VagKNUe96H4IdMbr9f2o\n\n*✨ᴡᴇʙ ꜱɪᴛᴇ* ➠ https://suhas-bro.vercel.app/\n\n*🎉ᴛᴇʟᴇɢʀᴀᴍ* ➠https://t.me/suhasbro\n\n*➟➟➟➟➟➟➟➟➟➟➟➟➟➟➟*\n\n\n*_🗣️Sʜᴇʀᴇ Oᴜʀ YᴏᴜTᴜʙᴇ Cʜᴀɴɴᴇʟ Lɪɴᴋ & WʜᴀᴛꜱAᴘᴘ Cʜᴀɴɴᴇʟ Lɪɴᴋ Wɪᴛʜ Yᴏᴜʀ Fʀɪᴇɴᴅꜱ...💙_*\n\n> *✨ Powered By SUHAS-MD-V9 💞*`;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.ibb.co/mbP3mpW/20241207-221016.jpg` }, caption: up })
 
@@ -218,9 +204,14 @@ command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, i
 })
 }
 app.get("/", (req, res) => {
-res.send("hey, suhas-md started🦠✅");
+res.send("💛 SUHAS-MD-V9 Started. 💛");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
 connectToWA()
-}, 4000);
+}, 4000);  
+
+
+
+
+
