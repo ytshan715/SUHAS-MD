@@ -16,6 +16,13 @@ https://chat.whatsapp.com/BFDXnaUCQKqInxGq8LxUvo
 <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
 
 <div align="center">
+
+<p align="center">
+🚩Add Your Bot Number In Index.js 50th Line.
+<p align="center">
+🚩ඔයාගේ Bot Number එක Index.js එකේ 50 වෙනි පෙළියේ දාන්න.
+<p align="center">
+ex :- 9412345678
  
    <a><img src='https://i.ibb.co/mbP3mpW/20241207-221016.jpg'/></a><a>
 <p align="center">
