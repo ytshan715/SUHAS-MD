@@ -2,7 +2,7 @@
 <p align="center">
 💡✨𝙎𝙐𝙃𝘼𝙎-𝙈𝘿 𝙒𝙚𝙗 𝙎𝙞𝙩𝙚.✨💡
 <p align="center">
-https://suhas-web-new.vercel.app/
+https://suhas-bro.vercel.app/
 
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=A93226&center=true&width=900&height=100&lines=🧚‍♂️SUHAS-MD%20V9🧚‍♂️;%20🤖Multi-Device%20WhatsApp%20Bot.🤖;%20🥰Developed%20By%20Suhas%20Pathsindu.🥰)
 <p align="center">
